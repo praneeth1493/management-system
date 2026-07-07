@@ -213,7 +213,7 @@ const EventDetails = () => {
           <div className="h-64 bg-gradient-to-r from-primary-500 to-primary-700 flex items-center justify-center relative">
             {event.image ? (
               <img
-                src={`${import.meta.env.VITE_API_URL?.replace('/api', '') || 'http://localhost:5000'}/${event.image}`}
+                src={`${import.meta.env.VITE_API_URL?.replace('/api', '') || 'https://management-system-of4k.onrender.com'}/${event.image}`}
                 alt={event.title}
                 className="w-full h-full object-cover"
               />

@@ -59,7 +59,7 @@ const MyRegistrations = () => {
                   <div className="md:w-1/4 h-48 md:h-auto bg-gradient-to-r from-primary-400 to-primary-600 flex items-center justify-center">
                     {registration.eventId?.image ? (
                       <img
-                        src={`${import.meta.env.VITE_API_URL?.replace('/api', '') || 'http://localhost:5000'}/${registration.eventId.image}`}
+                        src={`${import.meta.env.VITE_API_URL?.replace('/api', '') || 'https://management-system-of4k.onrender.com'}/${registration.eventId.image}`}
                         alt={registration.eventId.title}
                         className="w-full h-full object-cover"
                       />
